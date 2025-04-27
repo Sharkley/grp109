@@ -14,16 +14,21 @@ body {
   justify-content: center;
 }
 
-#title {
-  padding: 20px 0;
-  margin: 10px 0;
+header {
+  margin: 0;
   width: 100%;
   background-color: lightyellow;
-  text-align: center;
+  box-sizing: border-box;
+  padding: 1px 0;
+}
+
+#title {
   font-family: "JustLettersMedium";
   font-weight: normal;
   font-style: normal;
   font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .white {
