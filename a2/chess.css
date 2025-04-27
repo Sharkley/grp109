@@ -11,7 +11,7 @@ body {
 
 #title {
   padding: 20px 0;
-  margin: 10px 0;
+  margin: 0;
   width: 100%;
   background-color: lightyellow;
   text-align: center;
@@ -60,7 +60,9 @@ body {
   justify-content: center;
   border: solid 1px;
   padding: 10px;
-  margin: 10px;
+  /* Example code wanted a margin, but the example image doesn't have it. 
+  I removed it to look like example. */
+  margin: 0px;
   background-color: pink;
 }
 
