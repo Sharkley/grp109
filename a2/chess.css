@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  background-image: url(bodybg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .row {
@@ -11,7 +16,7 @@ body {
 
 #title {
   padding: 20px 0;
-  margin: 0;
+  margin: 10px 0;
   width: 100%;
   background-color: lightyellow;
   text-align: center;
@@ -49,24 +54,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 2rem auto;
   max-width: 800px;
+  flex-grow: 1;
+  width: 700px;
 }
 
 /* Set 2, Harley */
-
 #footer {
   display: flex;
   justify-content: center;
   border: solid 1px;
   padding: 10px;
-  /* Example code wanted a margin, but the example image doesn't have it. 
-  I removed it to look like example. */
   margin: 0px;
   background-color: pink;
-}
-
-body {
-  background-image: url(bodybg.jpg);
-  background-size: cover;
 }
