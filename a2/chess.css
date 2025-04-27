@@ -1,10 +1,10 @@
 body {
-  margin: 0;
+  margin: 0; /* removed browser default styles */
   background-image: url(bodybg.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; /* ensures that the body takes up min height of the screen, this is so flex-grow on main container will take up the correct height */
 }
 
 .row {
@@ -19,7 +19,7 @@ header {
   width: 100%;
   background-color: lightyellow;
   box-sizing: border-box;
-  padding: 1px 0;
+  padding: 1px 0; /* added padding to that header will conform with title margin */
 }
 
 #title {
@@ -28,7 +28,7 @@ header {
   font-style: normal;
   font-size: 36px;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 0; /* top bottom margin on title according to criteria */
 }
 
 .white {
