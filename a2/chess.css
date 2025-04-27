@@ -48,3 +48,19 @@
   margin: 2rem auto;
   max-width: 800px;
 }
+
+/* Set 2, Harley */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  padding: 10px;
+  margin: 10px;
+  background-color: pink;
+}
+
+body {
+  background-image: url(bodybg.jpg);
+  background-size: cover;
+}
