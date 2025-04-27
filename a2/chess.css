@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .row {
   position: relative;
   width: 100%;
@@ -6,7 +10,7 @@
 }
 
 #title {
-  padding: 20px;
+  padding: 20px 0;
   margin: 10px 0;
   width: 100%;
   background-color: lightyellow;
